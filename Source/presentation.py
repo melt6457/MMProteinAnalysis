@@ -38,3 +38,5 @@ for num in range(1, len(simNames2)):
 plt.plot(sims2[0].log.times, sims2[0].log.pot_energy)
 
 plt.show()
+
+print('Goodbye')
