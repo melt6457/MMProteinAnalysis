@@ -13,6 +13,8 @@ import matplotlib.pyplot as plt
 import logAnalysis as log
 import rmsdAnalysis as rmsd
 import numpy as np
+import plotly.offline as py
+import plotly.graph_objs as go
 
 class simulation:
 
@@ -103,10 +105,21 @@ class simulation:
         # Returned:     the average potential energy for the simulation
         #################################################################################
 
-        total = sum(self.log.pot_energy)
-        numTerm = len(self.log.pot_energy)
+        return np.mean(self.log.pot_energy)
 
-        return (total / numTerm)
+    def calcStdDevPotentialEnergy(self):
+        #################################################################################
+        # Function:     calcAvePotentialEnergy
+        #
+        # Description:  calculates the average potential energy for a simulation
+        #
+        # Parameters:   none
+        #
+        # Returned:     the average potential energy for the simulation
+        #################################################################################
+
+        return np.std(self.log.pot_energy)
+
 
     def graphRMSD(self):
         #################################################################################
@@ -188,3 +201,27 @@ class simulation:
             print ("No Logs for this simulation\n")
         else:
             self.log.extractLogInfo()
+
+    def graphErrorBars(self, value, error):
+
+        trace1 = go.Bar(
+            x = ['Trial 1'],
+            y = [value],
+            name = '300',
+            error_y = dict
+            (
+                type = 'data',
+                array = [error],
+                visible = True
+            )
+        )
+
+        data = [trace1]
+        layout = go.Layout(
+            barmode = 'group'
+        )
+
+        fig = go.Figure(data = data, layout = layout)
+        py.plot(fig, filename = 'Error Test')
+
+

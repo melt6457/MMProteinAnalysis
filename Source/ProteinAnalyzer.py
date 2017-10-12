@@ -24,7 +24,7 @@ PRINT_RESOURCES = 1
 RUN_ANALYSIS = 2
 COMBINE_SIMULATIONS = 3
 RESOURCE_PATH = "../Resources"
-NUM_ANALYSIS_CHOICES = 5
+NUM_ANALYSIS_CHOICES = 6
 
 #################################################################################
 # User Interface Functions
@@ -165,6 +165,7 @@ def analysisMenu():
     print("3) Graph Potential Energy vs. Time")
     print("4) Graph Potential Energy vs. Temp")
     print("5) Graph Kinetic Energy vs. Temp")
+    print("6) Report Potential Energy Data")
 
 def selectSimulation():
     #################################################################################
@@ -241,7 +242,6 @@ def selectMultipleSimulations():
 
     return simulations
 
-
 #################################################################################
 # Performance Functions
 #################################################################################
@@ -314,6 +314,17 @@ def performAnalysis(selection, simulation):
             print("There is no .log to use for graphing.")
         else:
             simulation.graphKineticEnergyTemp()
+    elif selection is 6:
+        if simulation.log is "None":
+            print("There is not .log info to use for graphing.")
+        else:
+            avePE = simulation.calcAvePotentialEnergy()
+            stdDevPE = simulation.calcStdDevPotentialEnergy()
+
+            print("The Average Potential Energy is: ", avePE)
+            print("The Standard Deviation of Potential Energy is: ", stdDevPE)
+
+            simulation.graphErrorBars(avePE, stdDevPE)
 
 def runAnalysis():
     #################################################################################
