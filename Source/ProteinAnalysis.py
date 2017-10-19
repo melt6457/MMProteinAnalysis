@@ -23,4 +23,4 @@ while proceed is 'y':
     proceed = input("Proceed? (y or n): ")
     clear()
 
-print("Thank you for using Protein Analyzer!")
+print("Thank you for using MMProteinAnalysis!")
