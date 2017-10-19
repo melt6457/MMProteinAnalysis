@@ -15,7 +15,7 @@
       <file leaf-file-name="presentation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/presentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
+            <state relative-caret-position="529">
               <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -24,8 +24,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trypsinSucComp315_trial2.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/trypsinSucComp315_trial2.log">
+      <file leaf-file-name="trypsin300_trial7.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/trypsin300_trial7.log">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -34,22 +34,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trypsin300_trial3.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/trypsin300_trial3.log">
+      <file leaf-file-name="rmsdAnalysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/rmsdAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+              <folding>
+                <element signature="e#767#2748#0" expanded="false" />
+                <element signature="e#2754#2835#0" expanded="false" />
+                <element signature="e#2973#3792#0" expanded="false" />
+                <element signature="e#3837#4617#0" expanded="false" />
+                <element signature="e#4653#4825#0" expanded="false" />
+                <element signature="e#4896#6017#0" expanded="false" />
+                <element signature="e#6080#7068#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dock_trial1.log" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Resources/dock_trial1.log">
+      <file leaf-file-name="ProteinAnalyzer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/ProteinAnalyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="156">
+              <caret line="293" column="24" lean-forward="false" selection-start-line="293" selection-start-column="24" selection-end-line="293" selection-end-column="24" />
+              <folding>
+                <element signature="e#566#590#0" expanded="true" />
+                <element signature="e#1170#1535#0" expanded="false" />
+                <element signature="e#1560#2029#0" expanded="false" />
+                <element signature="e#2057#2893#0" expanded="false" />
+                <element signature="e#2936#3915#0" expanded="false" />
+                <element signature="e#3967#5120#0" expanded="false" />
+                <element signature="e#5159#5780#0" expanded="false" />
+                <element signature="e#5806#6405#0" expanded="false" />
+                <element signature="e#6435#7530#0" expanded="false" />
+                <element signature="e#7569#8844#0" expanded="false" />
+                <element signature="e#9071#9958#0" expanded="false" />
+                <element signature="e#11699#12733#0" expanded="false" />
+                <element signature="e#12758#13822#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProteinAnalysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/ProteinAnalysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding>
+                <element signature="e#509#538#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,23 +105,56 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="fileManager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/fileManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="simulation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/simulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+            <state relative-caret-position="461">
+              <caret line="177" column="53" lean-forward="false" selection-start-line="177" selection-start-column="53" selection-end-line="177" selection-end-column="53" />
               <folding>
                 <element signature="e#451#482#0" expanded="true" />
                 <element signature="e#837#1894#0" expanded="false" />
                 <element signature="e#2112#2661#0" expanded="false" />
                 <element signature="e#2702#3276#0" expanded="false" />
                 <element signature="e#3322#3777#0" expanded="false" />
+                <element signature="e#3825#4374#0" expanded="false" />
+                <element signature="e#4409#4925#0" expanded="false" />
+                <element signature="e#4961#5405#0" expanded="false" />
                 <element signature="e#5446#5955#0" expanded="false" />
                 <element signature="e#6005#6497#0" expanded="false" />
                 <element signature="e#6545#7033#0" expanded="false" />
                 <element signature="e#7067#7194#0" expanded="false" />
                 <element signature="e#7227#7355#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trypsinComp500_5.dat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/trypsinComp500_5.dat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trypsinComp300_8.dat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/trypsinComp300_8.dat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,9 +233,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="189" />
-    <option name="y" value="61" />
-    <option name="width" value="1158" />
+    <option name="x" value="70" />
+    <option name="y" value="63" />
+    <option name="width" value="1613" />
     <option name="height" value="1132" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -213,20 +280,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MMProteinAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MMProteinAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -234,7 +287,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/conda/conda/envs/MD1.5/Projects/TrypsinTrials" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -390,14 +443,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="61" width="1158" height="1132" extended-state="0" />
-    <editor active="true" />
+    <frame x="70" y="63" width="1613" height="1132" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5683012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40638697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297456" sideWeight="0.5021916" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297456" sideWeight="0.4978084" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -459,6 +511,11 @@
           <line>71</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Source/ProteinAnalyzer.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -467,15 +524,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="84" />
+      <option name="time" value="85" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Resources/trypsin51.log" />
-    <entry file="file://$PROJECT_DIR$/Resources/trypsin5rmsd.dat" />
-    <entry file="file://$PROJECT_DIR$/Resources/trypsin1.log" />
-    <entry file="file://$PROJECT_DIR$/Resources/trypsin1.dat" />
     <entry file="file://$PROJECT_DIR$/Resources/trypsin2.dat" />
     <entry file="file://$PROJECT_DIR$/Resources/trypsin3.dat" />
     <entry file="file://$PROJECT_DIR$/Resources/trypsin5.dat" />
@@ -512,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/fileManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/trypsin300.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -530,14 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/ProteinAnalysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,58 +614,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/ProteinAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Resources/trypsinSucComp315_trial2.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="293" column="24" lean-forward="true" selection-start-line="293" selection-start-column="24" selection-end-line="293" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/trypsin300_trial3.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/dock_trial1.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="148" lean-forward="true" selection-start-line="28" selection-start-column="148" selection-end-line="28" selection-end-column="148" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/trypsin500_trial6.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/trypsin300_trial7.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/ProteinAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="e#1170#1535#0" expanded="false" />
-            <element signature="e#1560#2029#0" expanded="false" />
-            <element signature="e#2057#2893#0" expanded="false" />
-            <element signature="e#2936#3915#0" expanded="false" />
-            <element signature="e#3967#5120#0" expanded="false" />
-            <element signature="e#5159#5780#0" expanded="false" />
-            <element signature="e#5806#6405#0" expanded="false" />
-            <element signature="e#6435#7530#0" expanded="false" />
-            <element signature="e#7569#8844#0" expanded="false" />
-            <element signature="e#9071#9958#0" expanded="false" />
-            <element signature="e#11699#12733#0" expanded="false" />
-            <element signature="e#12758#13822#0" expanded="false" />
+            <element signature="e#509#538#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/rmsdAnalysis.py">
+    <entry file="file://$PROJECT_DIR$/Source/presentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="529">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
           <folding>
-            <element signature="e#767#2748#0" expanded="false" />
-            <element signature="e#2754#2835#0" expanded="false" />
-            <element signature="e#2973#3792#0" expanded="false" />
-            <element signature="e#3837#4617#0" expanded="false" />
-            <element signature="e#4653#4825#0" expanded="false" />
-            <element signature="e#4896#6017#0" expanded="false" />
-            <element signature="e#6080#7068#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding>
-            <element signature="e#451#482#0" expanded="true" />
-            <element signature="e#837#1894#0" expanded="false" />
-            <element signature="e#2112#2661#0" expanded="false" />
-            <element signature="e#2702#3276#0" expanded="false" />
-            <element signature="e#3322#3777#0" expanded="false" />
-            <element signature="e#5446#5955#0" expanded="false" />
-            <element signature="e#6005#6497#0" expanded="false" />
-            <element signature="e#6545#7033#0" expanded="false" />
-            <element signature="e#7067#7194#0" expanded="false" />
-            <element signature="e#7227#7355#0" expanded="false" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,17 +689,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/presentation.py">
+    <entry file="file://$PROJECT_DIR$/Source/fileManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="257">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/rmsdAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#767#2748#0" expanded="false" />
+            <element signature="e#2754#2835#0" expanded="false" />
+            <element signature="e#2973#3792#0" expanded="false" />
+            <element signature="e#3837#4617#0" expanded="false" />
+            <element signature="e#4653#4825#0" expanded="false" />
+            <element signature="e#4896#6017#0" expanded="false" />
+            <element signature="e#6080#7068#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/trypsinSucComp315_trial2.log">
+    <entry file="file://$PROJECT_DIR$/Source/ProteinAnalyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="293" column="24" lean-forward="false" selection-start-line="293" selection-start-column="24" selection-end-line="293" selection-end-column="24" />
+          <folding>
+            <element signature="e#566#590#0" expanded="true" />
+            <element signature="e#1170#1535#0" expanded="false" />
+            <element signature="e#1560#2029#0" expanded="false" />
+            <element signature="e#2057#2893#0" expanded="false" />
+            <element signature="e#2936#3915#0" expanded="false" />
+            <element signature="e#3967#5120#0" expanded="false" />
+            <element signature="e#5159#5780#0" expanded="false" />
+            <element signature="e#5806#6405#0" expanded="false" />
+            <element signature="e#6435#7530#0" expanded="false" />
+            <element signature="e#7569#8844#0" expanded="false" />
+            <element signature="e#9071#9958#0" expanded="false" />
+            <element signature="e#11699#12733#0" expanded="false" />
+            <element signature="e#12758#13822#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="177" column="53" lean-forward="false" selection-start-line="177" selection-start-column="53" selection-end-line="177" selection-end-column="53" />
+          <folding>
+            <element signature="e#451#482#0" expanded="true" />
+            <element signature="e#837#1894#0" expanded="false" />
+            <element signature="e#2112#2661#0" expanded="false" />
+            <element signature="e#2702#3276#0" expanded="false" />
+            <element signature="e#3322#3777#0" expanded="false" />
+            <element signature="e#3825#4374#0" expanded="false" />
+            <element signature="e#4409#4925#0" expanded="false" />
+            <element signature="e#4961#5405#0" expanded="false" />
+            <element signature="e#5446#5955#0" expanded="false" />
+            <element signature="e#6005#6497#0" expanded="false" />
+            <element signature="e#6545#7033#0" expanded="false" />
+            <element signature="e#7067#7194#0" expanded="false" />
+            <element signature="e#7227#7355#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/trypsinComp500_5.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -665,15 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/trypsin300_trial3.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/dock_trial1.log">
+    <entry file="file://$PROJECT_DIR$/Resources/trypsinComp300_8.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
