@@ -120,7 +120,6 @@ class simulation:
 
         return np.std(self.log.pot_energy)
 
-
     def graphRMSD(self):
         #################################################################################
         # Function:     graphRMSD
@@ -147,6 +146,18 @@ class simulation:
         #################################################################################
 
         return np.mean(self.rmsd.RMSDs)
+
+    def calcStdDevDAT(self):
+        #################################################################################
+        # Function:     calcStdDevDAT
+        #
+        # Description:  calculates the standard deviation of the data in the DAT file
+        #
+        # Parameters:   none
+        #
+        # Returned:     the standard deviation of the data in the DAT file
+        #################################################################################
+        return np.std(self.rmsd.RMSDs)
 
     def graphRMSDvsTemp(self):
         #################################################################################
@@ -202,13 +213,11 @@ class simulation:
         else:
             self.log.extractLogInfo()
 
-    def graphErrorBars(self, value, error):
+    def graphErrorBars(self, objects, values, errors):
 
-        objects = ('First', 'Second')
         y_pos = np.arange(len(objects))
-        values = [value, value]
 
-        plt.bar(y_pos, values, align='center', alpha=0.5, yerr=error)
+        plt.bar(y_pos, values, align='center', alpha=0.5, yerr=errors)
         plt.xticks(y_pos, objects)
         # plt.xticklabels('First', 'Second')
         plt.ylabel('Value')

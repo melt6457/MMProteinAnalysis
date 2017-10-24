@@ -1,6 +1,7 @@
 import ProteinAnalyzer as pa
 import fileManager as files
 import matplotlib.pyplot as plt
+import simulation
 
 print('End of Summer Presentation Files')
 
@@ -21,7 +22,7 @@ for count in range(1, len(simNames)):
 
 
 # sims[0].rmsd.calculateFrameTimes(0, sims[0].log.getEndTime() - sims[0].log.getStartTime())
-plt.plot(sims[0].log.times, sims[0].log.pot_energy)
+# plt.plot(sims[0].log.times, sims[0].log.pot_energy)
 
 for count in range(0, len(simNames2)):
     fileSet2 = files.getSimulationFiles(simNames2[count])
@@ -35,8 +36,33 @@ for num in range(1, len(simNames2)):
 
 # sims2[0].rmsd.calculateFrameTimes(0, sims2[0].log.getEndTime() - sims2[0].log.getStartTime())
 # plt.plot(sims2[0].rmsd.times, sims2[0].rmsd.RMSDs)
-plt.plot(sims2[0].log.times, sims2[0].log.pot_energy)
+# plt.plot(sims2[0].log.times, sims2[0].log.pot_energy)
 
-plt.show()
+# plt.show()
 
-print('Goodbye')
+# print('Goodbye')
+
+aveDAT = sims[0].calcAveDAT()
+stdDevDAT = sims[0].calcStdDevDAT()
+
+print("The Average of the 300 Data is: ", aveDAT)
+print("The Standard Deviation of the 300 Data:", stdDevDAT)
+
+aveDATs = []
+stdDevDATs = []
+
+aveDATs.append(aveDAT)
+stdDevDATs.append(stdDevDAT)
+
+objects = ('300 K', '500 K')
+
+aveDAT = sims2[0].calcAveDAT()
+stdDevDAT = sims2[0].calcStdDevDAT()
+
+print("The Average of the 300 Data is: ", aveDAT)
+print("The Standard Deviation of the 300 Data:", stdDevDAT)
+
+aveDATs.append(aveDAT)
+stdDevDATs.append(stdDevDAT)
+
+sims[0].graphErrorBars(objects, aveDATs, stdDevDATs)

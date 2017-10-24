@@ -24,7 +24,7 @@ PRINT_RESOURCES = 1
 RUN_ANALYSIS = 2
 COMBINE_SIMULATIONS = 3
 RESOURCE_PATH = "../Resources"
-NUM_ANALYSIS_CHOICES = 6
+NUM_ANALYSIS_CHOICES = 7
 
 #################################################################################
 # User Interface Functions
@@ -166,6 +166,7 @@ def analysisMenu():
     print("4) Graph Potential Energy vs. Temp")
     print("5) Graph Kinetic Energy vs. Temp")
     print("6) Report Potential Energy Data")
+    print("7) Report Data")
 
 def selectSimulation():
     #################################################################################
@@ -325,6 +326,17 @@ def performAnalysis(selection, simulation):
             print("The Standard Deviation of Potential Energy is: ", stdDevPE)
 
             simulation.graphErrorBars(avePE, stdDevPE)
+    elif selection is 7:
+        if simulation.rmsd is "None":
+            print("There is no .dat to use for graphing.")
+        else:
+            aveDAT = simulation.calcAveDAT()
+            stdDevDAT = simulation.calcStdDevDAT()
+
+            print("The Average of the Data is: ", aveDAT)
+            print("The Standard Deviation of the Data:", stdDevDAT)
+
+            simulation.graphErrorBars(aveDAT, stdDevDAT)
 
 def runAnalysis():
     #################################################################################
