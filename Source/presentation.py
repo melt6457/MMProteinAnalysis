@@ -75,7 +75,7 @@ stdDevDATs = []
 aveDATs.append(aveDAT)
 stdDevDATs.append(stdDevDAT)
 
-objects = ('300 K', '500 K')
+objects = ('300 K', '500 K', '300 K Complex')
 
 aveDAT2 = sims2[0].calcAveDAT()
 stdDevDAT2 = sims2[0].calcStdDevDAT()
@@ -83,19 +83,16 @@ stdDevDAT2 = sims2[0].calcStdDevDAT()
 print("The Average of the 300 Data is: ", aveDAT2)
 print("The Standard Deviation of the 300 Data:", stdDevDAT2)
 
-aveDAT2 = sims2[0].calcAveDAT()
-stdDevDAT2 = sims2[0].calcStdDevDAT()
-
-print("The Average of the 300 Data is: ", aveDAT2)
-print("The Standard Deviation of the 300 Data:", stdDevDAT2)
+aveDATs.append(aveDAT2)
+stdDevDATs.append(stdDevDAT2)
 
 aveDAT3 = sims3[0].calcAveDAT()
-stdDevDAT3 = sims3[0].calcStdDevDat()
+stdDevDAT3 = sims3[0].calcStdDevDAT()
 
 print("The Average of the 500 Data is: ", aveDAT3)
 print("The Standard Deviation of the 500 Data:", stdDevDAT3)
 
-aveDATs.append(aveDAT)
-stdDevDATs.append(stdDevDAT)
+aveDATs.append(aveDAT3)
+stdDevDATs.append(stdDevDAT3)
 
 sims[0].graphErrorBars(objects, aveDATs, stdDevDATs)
