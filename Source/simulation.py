@@ -13,8 +13,6 @@ import matplotlib.pyplot as plt; plt.rcdefaults()
 import logAnalysis as log
 import rmsdAnalysis as rmsd
 import numpy as np
-import plotly.offline as py
-import plotly.graph_objs as go
 
 class simulation:
 

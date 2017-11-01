@@ -40,7 +40,7 @@ for num in range(1, len(simNames2)):
 # plt.plot(sims2[0].rmsd.times, sims2[0].rmsd.RMSDs)
 plt.plot(sims2[0].log.times, sims2[0].log.pot_energy)
 
-for count in range(0, len(simNames)):
+'''for count in range(0, len(simNames)):
     fileSet = files.getSimulationFiles(simNames3[count])
     sim3 = pa.createSimAnalysis(fileSet)
     sim3.loadLog()
@@ -50,18 +50,18 @@ for count in range(0, len(simNames)):
 for count in range(1, len(simNames)):
     sims3[0].combine(sims[count])
 
-plt.plot(sims3[0].log.times, sims3[0].log.pot_energy)
+plt.plot(sims3[0].log.times, sims3[0].log.pot_energy)'''
 
 avePotEnergy = sims[0].calcAvePotentialEnergy()
 avePotEnergy2 = sims2[0].calcAvePotentialEnergy()
-avePotEnergy3 = sims3[0].calcAvePotentialEnergy()
+#avePotEnergy3 = sims3[0].calcAvePotentialEnergy()
 print("The Average Potential Energy of sim 1 is: ", avePotEnergy)
 print("The Average Potential Energy of sim 2 is: ", avePotEnergy2)
-print("The Average Potential Energy of sim 3 is: ", avePotEnergy3)
+#print("The Average Potential Energy of sim 3 is: ", avePotEnergy3)
 
 plt.show()
 
-print('Data')
+'''print('Data')
 
 aveDAT = sims[0].calcAveDAT()
 stdDevDAT = sims[0].calcStdDevDAT()
@@ -95,4 +95,4 @@ print("The Standard Deviation of the 500 Data:", stdDevDAT3)
 aveDATs.append(aveDAT3)
 stdDevDATs.append(stdDevDAT3)
 
-sims[0].graphErrorBars(objects, aveDATs, stdDevDATs)
+sims[0].graphErrorBars(objects, aveDATs, stdDevDATs)'''
