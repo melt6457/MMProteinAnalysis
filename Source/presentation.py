@@ -41,7 +41,7 @@ for num in range(1, len(simNames2)):
 plt.plot(sims2[0].log.times, sims2[0].log.pot_energy)
 
 for count in range(0, len(simNames)):
-    fileSet = files.getSimulationFiles(simNames[count])
+    fileSet = files.getSimulationFiles(simNames3[count])
     sim3 = pa.createSimAnalysis(fileSet)
     sim3.loadLog()
     sim3.loadRMSD()
@@ -61,7 +61,7 @@ print("The Average Potential Energy of sim 3 is: ", avePotEnergy3)
 
 plt.show()
 
-'''print('Data')
+print('Data')
 
 aveDAT = sims[0].calcAveDAT()
 stdDevDAT = sims[0].calcStdDevDAT()
@@ -98,4 +98,4 @@ print("The Standard Deviation of the 500 Data:", stdDevDAT3)
 aveDATs.append(aveDAT)
 stdDevDATs.append(stdDevDAT)
 
-sims[0].graphErrorBars(objects, aveDATs, stdDevDATs)'''
+sims[0].graphErrorBars(objects, aveDATs, stdDevDATs)
