@@ -22,7 +22,7 @@ for count in range(1, len(simNames)):
 
 
 # sims[0].rmsd.calculateFrameTimes(0, sims[0].log.getEndTime() - sims[0].log.getStartTime())
-# plt.plot(sims[0].log.times, sims[0].log.pot_energy)
+plt.plot(sims[0].log.times, sims[0].log.pot_energy)
 
 for count in range(0, len(simNames2)):
     fileSet2 = files.getSimulationFiles(simNames2[count])
@@ -34,15 +34,15 @@ for count in range(0, len(simNames2)):
 for num in range(1, len(simNames2)):
     sims2[0].combine(sims2[num])
 
-# sims2[0].rmsd.calculateFrameTimes(0, sims2[0].log.getEndTime() - sims2[0].log.getStartTime())
+sims2[0].rmsd.calculateFrameTimes(0, sims2[0].log.getEndTime() - sims2[0].log.getStartTime())
 # plt.plot(sims2[0].rmsd.times, sims2[0].rmsd.RMSDs)
-# plt.plot(sims2[0].log.times, sims2[0].log.pot_energy)
+plt.plot(sims2[0].log.times, sims2[0].log.pot_energy)
 
-# plt.show()
+plt.show()
 
-# print('Goodbye')
+print('Goodbye')
 
-aveDAT = sims[0].calcAveDAT()
+'''aveDAT = sims[0].calcAveDAT()
 stdDevDAT = sims[0].calcStdDevDAT()
 
 print("The Average of the 300 Data is: ", aveDAT)
@@ -65,4 +65,4 @@ print("The Standard Deviation of the 300 Data:", stdDevDAT)
 aveDATs.append(aveDAT)
 stdDevDATs.append(stdDevDAT)
 
-sims[0].graphErrorBars(objects, aveDATs, stdDevDATs)
+sims[0].graphErrorBars(objects, aveDATs, stdDevDATs)'''
